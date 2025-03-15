@@ -2,6 +2,7 @@ package app
 
 import data.Person
 import data.Car
+import data.Student
 
 fun main() {
 //    val aji = Person()
@@ -16,4 +17,7 @@ fun main() {
 
     var avanza = Car("Avanza")
     println("${avanza.brand}, ${avanza.year}")
+
+    var studen1 = Student()
+    studen1.sayHello2()
 }
