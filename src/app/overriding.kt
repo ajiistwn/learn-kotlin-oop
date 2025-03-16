@@ -1,8 +1,5 @@
 package app
 
-import data.Employee
-import data.Manager
-
 fun main() {
 
     val employee = Employee("nanda")

@@ -7,4 +7,8 @@ class User(val userName: String = "user",
         println("Hello ${this.userName}")
     }
 
+    override fun toString(): String {
+        return "User ${userName}"
+    }
+
 }

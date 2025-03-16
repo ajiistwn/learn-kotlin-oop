@@ -1,4 +1,4 @@
-package data
+package app
 
 open class Shape {
     open val corner: Int = -1

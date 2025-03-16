@@ -1,4 +1,4 @@
-package data
+package app
 
 open class Employee(val name: String) {
     fun sayHello(name: String){
