@@ -1,6 +1,6 @@
 package data
 
-class Student(val name: String = "aji") {
+data class Student(val name: String = "aji") {
 
     fun sayyHello(firstName: String, lastName: String){
         println("${firstName} ${lastName}")
